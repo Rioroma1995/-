@@ -1,0 +1,9 @@
+diff a/FirstHomeworkServlet/src/Hello.java b/FirstHomeworkServlet/src/Hello.java	(rejected hunks)
+@@ -7,6 +7,7 @@
+ import javax.servlet.http.HttpSession;
+ 
+ public class Hello extends HttpServlet {
++// Hello 
+ 	protected void doGet(HttpServletRequest request,
+ 			HttpServletResponse response) throws ServletException, IOException {
+ 		HttpSession session = request.getSession();
