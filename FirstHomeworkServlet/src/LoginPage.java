@@ -36,7 +36,7 @@ public class LoginPage extends HttpServlet {
 			else{
 				HttpSession session = request.getSession();
                 session.setAttribute("login", login);
-				response.sendRedirect("/FirstHomeworkServlet/Hello");
+				response.sendRedirect("/FirstHomeworkServlet/Hello");//Якщо все добре, переходимо на сторінку привітаня
 			}
 		out.close();
 	}
